@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>See Emm</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://icons8.com">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: url('https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?cs=srgb&dl=pexels-miguel-%C3%A1-padri%C3%B1%C3%A1n-255379.jpg&fm=jpg') center/cover no-repeat;
+      /* Set your background image here */
+    }
+
+    .topnav {
+      overflow: hidden;
+      background-color: rgba(51, 51, 51, 0.3);
+      position: fixed;
+      width: 100%;
+      z-index: 1000;
+      backdrop-filter: blur(5px);
+      font-size: 1.8em;
+    }
+
+    .topnav a {
+      float: right;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 11px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    .topnav a.active {
+      background-color: #04AA6D;
+      color: white;
+    }
+
+    .con {
+      padding-right: 10%;
+    }
+
+    .br {
+      margin-bottom: 10em;
+    }
+
+    hr.redline {
+      border-top: 1px solid red;
+      margin: 10px;
+    }
+
+    /* Container for the two-column layout */
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    /* Responsive divs in two columns */
+    .responsive-div {
+      box-sizing: border-box;
+      width: calc(50% - 20px);
+      margin: 10px;
+      padding: 20px;
+      border: 1px solid #ccc;
+    }
+
+    /* Responsive div in one column */
+    .single-column-div {
+      box-sizing: border-box;
+      width: 100%;
+      margin: 10px;
+      padding: 20px;
+      border: 1px solid #ccc;
+    }
+
+    /* Progress bar styling */
+    .skill-list {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .skill-item {
+      margin-bottom: 20px;
+    }
+
+    .skill-label {
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .progress-bar-container {
+      width: 600px;
+      height: 10px;
+      background-color: #eee;
+      border-radius: 10px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .progress-bar {
+      height: 100%;
+      background-color: #3d5441;
+      border-radius: 10px;
+      width: 60%; /* Adjust this value to change the width of the progress bar */
+      transition: width 0.5s ease-in-out;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="topnav">
+    <div class="con">
+      <a class="con" href="#contact">Contact</a>
+    </div>
+    <a href="#section-interests">Interests</a>
+    <a href="#section-portfolio">Portfolio</a>
+    <a href="#section-resume">Resume</a>
+    <a href="#section-about">Home</a>
+  </div>
+
+  <section id="section-about">
+    <!-- Section: About -->
+    <br><br><br><br><br><br>
+    <h1>About</h1>
+    <div class="container">
+      <!-- First responsive div -->
+      <div class="responsive-div">
+        <h2>CHARMAGNE MANIAGO</h2>
+        <p>Seeking a inspiring position in a reputable organization that recognizes my technical creativity and where I can fully apply it. Willingness to undergo training is a top priority. Dedicated to providing effective solutions for business needs.</p>
+      </div>
+
+      <!-- Second responsive div -->
+      <div class="responsive-div">
+        <img src="https://drive.google.com/thumbnail?id=1Vjm60FhzdMZePa9TiNGHJ16XTN0qmFyH" width="560px" height="500px">
+
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry..</p>
+        <a href="www.linkedin.com/in/charmagne-dale-maniago-099a7b206">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScrE5XmI-QyeeToHYfmJ67mAu6DNGN21V-kzMwCaosaQ&s" alt="ld-svg" height="20px" width="20px" border-radius="10px">
+        </a>
+        <a>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="gh" height="20px" width="20px" border-radius="10px">
+        </a>
+        <p>More Info...</p>
+      </div>
+    </div>
+
+    <!-- Single column responsive div below the two columns -->
+    <div class="single-column-div">
+      <h1>Skills</h1>
+      <ul class="skill-list">
+        <li class="skill-item">
+          <div class="skill-label">Computer Literate</div>
+          <div class="progress-bar-container">
+            <div class="progress-bar" style="width: 95%;"></div>
+          </div>
+        </li>
+        <li class="skill-item">
+          <div class="skill-label">Web Development</div>
+          <div class="progress-bar-container">
+            <div class="progress-bar" style="width: 80%;"></div>
+          </div>
+        </li>
+        <li class="skill-item">
+          <div class="skill-label">Python</div>
+          <div class="progress-bar-container">
+            <div class="progress-bar" style="width: 80%;"></div>
+          </div>
+        </li>
+        <li class="skill-item">
+          <div class="skill-label">Java</div>
+          <div class="progress-bar-container">
+            <div class="progress-bar" style="width: 88%;"></div>
+          </div>
+        </li>
+        <li class="skill-item">
+          <div class="skill-label">C#</div>
+          <div class="progress-bar-container">
+            <div class="progress-bar" style="width:75%;"></div>
+          </div>
+        </li>
+        <li class="skill-item">
+          <div class="skill-label">Project Management</div>
+          <div class="progress-bar-container">
+            <div class="progress-bar" style="width: 90%;"></div>
+          </div>
+        </li>
+        <li class="skill-item">
+          <div class="skill-label">Spreadsheet Gsheet</div>
+          <div class="progress-bar-container">
+            <div class="progress-bar" style="width: 88%;"></div>
+          </div>
+        </li>
+        <li class="skill-item">
+          <div class="skill-label">Application Programming Interface</div>
+          <div class="progress-bar-container">
+            <div class="progress-bar" style="width: 65%;"></div>
+          </div>
+        </li>
+        <li class="skill-item">
+          <div class="skill-label">Game Designing</div>
+          <div class="progress-bar-container">
+            <div class="progress-bar" style="width: 70%;"></div>
+          </div>
+        </li>
+        <li class="skill-item">
+          <div class="skill-label">Game Testing/Bug Hunter</div>
+          <div class="progress-bar-container">
+            <div class="progress-bar" style="width: 50%;"></div>
+          </div>
+        </li>
+        <li class="skill-item">
+          <div class="skill-label">Game Designing</div>
+          <div class="progress-bar-container">
+            <div class="progress-bar" style="width: 70%;"></div>
+          </div>
+        </li>
+        <li class="skill-item">
+          <div class="skill-label">Wordpress</div>
+          <div class="progress-bar-container">
+            <div class="progress-bar" style="width: 60%;"></div>
+          </div>
+        </li>
+        <li class="skill-item">
+          <div class="skill-label">Canva</div>
+          <div class="progress-bar-container">
+            <div class="progress-bar" style="width: 80%;"></div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section-about>
+
+  <hr class="redline">
+
+  <section id="section-resume">
+    <!-- Section: Resume -->
+    <h1>Resume</h1>
+    <div class="single-column-div">
+      <h2>Personal Informations</h2>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+      <h2>Afflations</h2>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+      <h2>Awards</h2>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+    </div>
+  </section-resume>
+
+  <hr class="redline">
+
+  <section id="section-portfolio">
+    <!-- Section: Portfolio -->
+    <h1>Portfolio</h1>
+    <div class="container">
+      <!-- First responsive div -->
+      <div class="responsive-div">
+        <h2>Campaign Report System</h2>
+        <p>The Campaign Report System operates as a sophisticated game data management tool seamlessly integrated into a Google Spreadsheet. With just a few simple interactions, it efficiently extracts and summarize the information from the game's historical data. This facilitates the generation of comprehensive in-game statistics for the players in a team, providing a valuable resource for strategic analysis and performance evaluation..</p>
+        <iframe src="https://docs.google.com/spreadsheets/d/1dKAbpmf9LKUSwMyUNxbj3PEG7s1MFtSv_NCaf_c5kHo/edit?usp=sharing" width="640" height="480"></iframe>
+        <p>Click here for More Info... <a href="https://drive.google.com/drive/folders/1wEmZ9JVsLo6IFKvfwDR4WaIgvc5CFrMF?usp=drive_link"> ClickMe </a></p>
+      </div>
+
+      <!-- Second responsive div -->
+      <div class="responsive-div">
+        <h2>Vonshon Ordering System</h2>
+        <p>An Ordering System that directs costumers order straight to paying all at their fingertips.
+          Browse menus, place orders seamlessly, and savor a diverse range of cuisines...</p><p>Vonshon is a group prelim project where Maniago is the Project Manager. Together with Serrano (Web Developer), Quiambao (Designer), Malong (Designer), and Estanislao (Web Developer)..</p>
+          <iframe src="https://vonshon.bitbucket.io" width="640" height="480"></iframe>
+        <p>Click here for More Info... <a href="https://vonshon.bitbucket.io"> ClickMe </a></p>
+
+
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- First responsive div -->
+      <div class="responsive-div">
+        <h2>Forever Dream | RPG </h2>
+        <p>A Role Playing Game that is in-progress game. Maniago is co-game Designing with her game developer friend.</p>
+        <!-- <img src="https://drive.google.com/uc?id=1vrQRke41JyiixDMZcxdh57rUdXs1b06E"> -->
+        <iframe src="https://rpgplayground.com" width="640" height="480"></iframe>
+        <p>Click here for More Info... <a href="https://drive.google.com/drive/folders/1CovOfLRwZWa0HFKRmDdDwcgPEYqdWCLq?usp=drive_link"> ClickMe </a></p>
+      </div>
+
+      <!-- Second responsive div -->
+      <div class="responsive-div">
+        <h2>AC-Coffee | E-Commerce </h2>
+        <p>A group Wordpress project with Castro A., Dacquil K., and Evangelista A. were Maniago focuses on user experience of the website this includes buttons and overall appeal of the website to a user..</p>
+        <iframe src="https://ac-coffee.com" width="640" height="480"></iframe>
+        <p>Click here for More Info... <a href="https://ac-coffee.com"> ClickMe </a></p>
+      </div>
+    </div>
+  </section-portfolio>
+
+  <hr class="redline">
+
+  <section id="section-interests">
+    <!-- Section: Interests -->
+    <h1>Interests</h1>
+    <div class="container">
+      <!-- First responsive div -->
+      <div class="responsive-div">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry..</p>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry..</p>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry..</p>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry..</p>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry..</p>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry..</p>
+        <p>More Info...</p>
+      </div>
+
+      <!-- Second responsive div -->
+      <div class="responsive-div">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry..</p>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry..</p>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry..</p>
+        <p>More Info...</p>
+      </div>
+    </div>
+  </section-interests>
+
+  <hr class="redline">
+
+  <section id="section-contact">
+    <!-- Section: Contact -->
+    <h1>Contact</h1>
+    <div class="container">
+      <!-- First responsive div -->
+      <div class="responsive-div">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry..</p>
+        <p>More Info...</p>
+      </div>
+
+      <!-- Second responsive div -->
+      <div class="responsive-div">
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry..</p>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry..</p>
+        <p>More Info...</p>
+      </div>
+    </div>
+  </section-contact>
+
+  <!-- Single column responsive div for additional content -->
+  <div class="single-column-div">
+    <p>
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+      standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+      type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+      remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+      Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of
+      Lorem Ipsum
+    </p>
+    <p>
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+      standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+      type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+      remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+      Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of
+      Lorem Ipsum
+    </p>
+  </div>
+
+</body>
+
+</html>
