@@ -150,14 +150,17 @@
     }
 
     /* Style buttons */
-    .btn-DownloadCv {
+    .btn-DownloadCv, .btn-DownloadCoverLetter {
       background-color: none;border: none; color: black;padding: 16px 15px; cursor: pointer;font-size: 15px; border-radius: 4px;
     }
             
     /* Darker background on mouse-over */
-    .btn-DownloadCv:hover{
+    .btn-DownloadCv:hover , .btn-DownloadCoverLetter:hover{
     background-color: rosybrown;
     }
+
+
+
     
     .sendMsg{
         background-color: none;border: none; color: black;padding: 16px 15px; cursor: pointer;font-size: 15px; border-radius: 4px; margin-left: 50%; margin-right: 50%;
@@ -166,6 +169,13 @@
         background-color: rosybrown;
     }
 
+    #banner{
+      margin-top: 80px;
+      margin-left: 300px;
+      margin-right: 300px;
+
+      
+    } 
 
   </style>
 </head>
@@ -182,9 +192,12 @@
     </div>
 
   </div>
-  <header>
 
+  
+  <header>
+    
   </header>
+  <img src="myBanner1.gif" alt="Banner" width="50%" id="banner" />
 
   <section id="section-about">
     <!-- Section: About -->
@@ -196,6 +209,7 @@
         <h2>CHARMAGNE MANIAGO</h2>
         <p>Seeking an aspiring any web development-related position to enhance my technical soft skills while contributing to an organization’s business development in a reputable organization that recognize individual’s technical creativeness. And where I can fully further my dedication in providing effective solutions for business needs. Plus willingness to undergo training.</p>
       </div>
+      
 
       <!-- Second responsive div -->
       <div class="responsive-div">
@@ -212,7 +226,12 @@
         </a>
 
             <!-- Download CV Button -->
-                  <button class="btn-DownloadCv"><i class="fa fa-download"></i><a href="https://drive.google.com/file/d/1TGzR65776fM2BoeX5OJBo3NxrRkpJXS6/view?usp=drive_link">Download CV </a></button>
+                  <button class="btn-DownloadCv"><i class="fa fa-download"></i><a href="https://drive.google.com/file/d/1fFrS6G_8peUiqSU7m1tSRCDeIe1v7Fow/view?usp=drive_link">See CV </a></button>
+                  
+
+            <!-- Download Cover Letter Button -->
+                  <button class="btn-DownloadCoverLetter"><i class="fa fa-download"></i><a href="https://drive.google.com/file/d/163lzPy2ZCX4EEAZambbQPY4ZcoYzGO3m/view?usp=drive_link">See Cover Letter </a></button>
+                  
                   
         <p>More Info...</p>
       </div>
@@ -524,6 +543,8 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+
 </script>
 
 </body>
